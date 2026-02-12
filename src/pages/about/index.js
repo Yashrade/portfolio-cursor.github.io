@@ -8,6 +8,7 @@ import {
   worktimeline,
   skills,
   services,
+  achievements,
 } from "../../content_option";
 
 export const About = () => {
@@ -37,7 +38,19 @@ export const About = () => {
         </Row>
         <Row className=" sec_sp">
           <Col lg="5">
-            <h3 className="color_sec py-4">Work Timline</h3>
+            <h3 className="color_sec py-4">Achievements</h3>
+          </Col>
+          <Col lg="7">
+            <ul className="achievements-list">
+              {achievements.map((item, i) => (
+                <li key={i}>{item}</li>
+              ))}
+            </ul>
+          </Col>
+        </Row>
+        <Row className=" sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Work Timeline</h3>
           </Col>
           <Col lg="7">
             <table className="table caption-top">
@@ -80,8 +93,8 @@ export const About = () => {
           </Col>
         </Row>
         <Row className="sec_sp">
-          <Col lang="5">
-            <h3 className="color_sec py-4">services</h3>
+          <Col lg="5">
+            <h3 className="color_sec py-4">Services</h3>
           </Col>
           <Col lg="7">
             {services.map((data, i) => {

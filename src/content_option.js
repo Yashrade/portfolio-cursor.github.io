@@ -1,157 +1,107 @@
-const logotext = "JOHN";
+const logotext = "YASH";
 const meta = {
-    title: "John Doe",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    title: "Yash Rade",
+    description: "Yash Rade — Machine Learning & Cloud enthusiast | Data Science Intern | Building intelligent solutions with ML, Computer Vision & AWS",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I'm Yash Rade",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I love Machine Learning",
+        second: "I build Data Solutions",
+        third: "I explore Cloud & AI",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "A Machine Learning and Cloud enthusiast passionate about data analysis, predictive modeling, and building scalable solutions. Experienced in computer vision, deep learning, and AWS cloud services.",
+    your_img_url: "https://avatars.githubusercontent.com/u/114682845?u=536c569f69b364b1e57e4ec07585223145ca8cc4&v=4&size=460",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "A bit about myself",
+    aboutme: "I'm a Data Science professional with hands-on experience in machine learning, predictive modeling, and cloud technologies. My internship at Celebal Technologies deepened my skills in data preprocessing, model training, and evaluation. I enjoy tackling real-world problems with data-driven approaches—from computer vision applications like virtual mouse control to medical AI for eye disease prediction. I'm AWS Cloud Practitioner certified, have solved 500+ LeetCode problems, and won 3rd prize in a research paper competition at TECHFEST 2022. I'm always eager to learn and apply new technologies to create impactful solutions.",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
+const worktimeline = [
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
+        jobtitle: "Data Science Intern",
+        where: "Celebal Technologies, Pune, India",
+        date: "May 2024 – August 2024",
     },
 ];
 
-const skills = [{
-        name: "Python",
-        value: 90,
+const skills = [
+    { name: "Python", value: 90 },
+    { name: "Machine Learning", value: 88 },
+    { name: "Data Analysis", value: 85 },
+    { name: "TensorFlow / PyTorch", value: 80 },
+    { name: "Computer Vision", value: 82 },
+    { name: "SQL & Power BI", value: 85 },
+];
+
+const achievements = [
+    "500+ Questions Solved on LeetCode",
+    "3rd Prize in Research Paper Competition at TECHFEST 2022, PCCOE, Pune",
+    "AWS Certified Cloud Practitioner",
+];
+
+const services = [
+    {
+        title: "Data Analysis & Visualization",
+        description: "Transform raw data into actionable insights using Python, Pandas, and Power BI. Create dashboards for sales trends, performance metrics, and business intelligence.",
     },
     {
-        name: "Djano",
-        value: 85,
+        title: "Machine Learning & Predictive Modeling",
+        description: "Develop and deploy ML models for classification, regression, and forecasting. Experience with CNN, SVM, XGBoost, and deep learning frameworks.",
     },
     {
-        name: "Javascript",
-        value: 80,
+        title: "Computer Vision & AI",
+        description: "Build real-time vision applications using OpenCV and MediaPipe. From gesture recognition to medical image analysis and disease prediction.",
     },
     {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
-        value: 85,
+        title: "Cloud & Scalable Solutions",
+        description: "Design and implement cloud architectures on AWS—EC2, S3, RDS, load balancing, VPC, IAM, and CloudWatch monitoring.",
     },
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
+const dataportfolio = [
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-    {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
-    },
-];
-
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        title: "Scalable Yoga Website",
+        img: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop",
+        description: "Developed a scalable yoga website using AWS EC2, S3, RDS, and MariaDB with load balancing, VPC configuration, IAM roles, and CloudWatch monitoring.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        title: "Virtual Mouse Using Landmarks",
+        img: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+        description: "Built a virtual mouse using MediaPipe and OpenCV—control cursor via hand landmarks, with gesture recognition for clicks, double-click, and screenshot.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        title: "Eye Disease Prediction",
+        img: "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&h=400&fit=crop",
+        description: "Comparative analysis of CNN, SVM, KNN, AdaBoost, and XGBoost for predicting eye diseases (CNV, drusen, DME). Best results with CNN + HSV + Gabor preprocessing.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        title: "Supply Chain Disruption Analysis",
+        img: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+        description: "Power BI dashboards for sales, customer behavior, and product performance. Key metrics on sales trends, team performance, and customer retention insights.",
         link: "#",
     },
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
+    YOUR_EMAIL: "yashrade03@gmail.com",
+    YOUR_FONE: "+91 9370003148",
+    description: "Interested in collaborating on Machine Learning, Data Science, or Cloud projects? Feel free to reach out—I'm always open to discussing new opportunities and ideas.",
     YOUR_SERVICE_ID: "service_id",
     YOUR_TEMPLATE_ID: "template_id",
     YOUR_USER_ID: "user_id",
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/yashrade",
+    linkedin: "https://linkedin.com/in/yashrade",
 };
+
 export {
     meta,
     dataabout,
@@ -159,6 +109,7 @@ export {
     worktimeline,
     skills,
     services,
+    achievements,
     introdata,
     contactConfig,
     socialprofils,
